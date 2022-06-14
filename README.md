@@ -24,6 +24,7 @@ Developed by:GURUPRASAD.B
 RegisterNumber:212221230032  
 */
 ```
+~~~
 import pandas as pd
 data=pd.read_csv("Employee.csv")
 data.head()
@@ -47,7 +48,7 @@ from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
-```
+~~~
 
 ## Output:
 # HEAD:
